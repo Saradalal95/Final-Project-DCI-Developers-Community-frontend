@@ -1,0 +1,104 @@
+:root {
+  font-size: 62.5%;
+}
+body {
+  background: rgb(251, 251, 251);
+  margin-bottom: 6rem;
+}
+/*start of Navbar*/
+.navbar-css {
+  width: 100%;
+  min-height: 6rem;
+  background: #1a39ca;
+  font-size: 18px;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  z-index: 1;
+}
+.userLogin {
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 50%;
+  color: #1a39ca;
+  background-color: white;
+  padding: 0.2rem;
+  margin: 0.5rem 1rem;
+}
+.user-dropdown {
+  position: fixed;
+  top: 1rem;
+  right: 7rem;
+}
+.dropdown-toggle::after {
+  content: none;
+}
+.nav-link {
+  margin: 0.5rem 1rem;
+}
+.nav-menu {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.nav-menu li a {
+  color: white !important;
+}
+.align-burger-button {
+  position: fixed;
+  right: 3rem;
+  top: 1.5rem;
+}
+.align-logo {
+  position: fixed;
+  top: 1.5rem;
+  left: 3rem;
+}
+.username {
+  position: fixed;
+  top: 1rem;
+  right: 13rem;
+}
+.register-buttons {
+  font-size: 1.8rem;
+}
+.register-buttons a:hover {
+  background-color: #1a39ca;
+  color: white;
+  border-radius: 10px 10px;
+}
+.logoNav img {
+  width: 15rem;
+  height: 4.5rem;
+  margin-left: 2rem;
+}
+/* media query */
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  /* navbar */
+  .logoNav img {
+    width: 10rem;
+    height: 4rem;
+    margin-left: 1.2rem;
+  }
+  .footer-container {
+    font-size: 0.8rem !important;
+  }
+  .nav-username {
+    font-size: 1.5rem;
+  }
+}
+/*  end of Navbar*/
+
+/* start of Footer*/
+.footer-container {
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  background-color: #1a39ca;
+  color: white;
+  font-size: 1.5rem;
+  padding: 0.5rem;
+}
+/*end of Footer*/

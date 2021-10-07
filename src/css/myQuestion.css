@@ -1,0 +1,102 @@
+.question-container {
+  height: 60rem;
+  max-height: 60rem;
+  max-width: 1000px;
+  margin: 13% auto;
+  border-radius: 10px 10px;
+  box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+  padding: 5rem;
+  font-size: 2rem;
+  position: relative;
+  background-color: white;
+}
+
+.question-container img,
+iframe {
+  height: 30rem;
+}
+.btn-container {
+  width: 50%;
+  position: absolute;
+  bottom: 10%;
+  left: 25%;
+}
+.topic {
+  background-color: #1a39ca;
+  color: white;
+  padding: 0.3em;
+  border-radius: 10px 10px;
+}
+.question-section {
+  height: 35rem;
+  max-height: 35rem;
+  overflow-y: scroll;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+  padding: 2rem 0;
+}
+.links {
+  width: 80%;
+  margin: auto;
+}
+.my-clip1 {
+  clip-path: polygon(0 9%, 100% 63%, 100% 100%, 0 51%);
+  background: linear-gradient(#e6efff, #1a39ca, #04083c);
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 20rem;
+  right: 0;
+  z-index: -1;
+}
+.my-clip2 {
+  clip-path: polygon(0 62%, 100% 0, 100% 41%, 0 100%);
+  background: linear-gradient(#e6efff, #1a39ca, #04083c);
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 20rem;
+  right: 0;
+  z-index: -1;
+}
+
+.welcome-update{
+  margin-top: 10rem;
+}
+
+.update-container{
+  margin-top: 5rem;
+  margin-bottom: 12rem;
+  border-radius: 10px 10px;
+  box-shadow: rgba(100, 97, 97, 0.56) 0px 22px 70px 4px;
+  background-color: #fff;
+}
+
+@media only screen and (max-width: 600px) {
+  .question-container {
+    width: 80%;
+    height: 40rem;
+    margin: 45% auto;
+    font-size: 1.2rem;
+  }
+  .question-container h1 {
+    font-size: 1.5rem;
+  }
+  .question-section {
+    height: 20rem;
+  }
+}
+@media only screen and (min-width: 600px) and (max-width: 992px) {
+  .question-container {
+    margin: 25% auto;
+  }
+}
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+  .question-container {
+    margin: 25% auto;
+  }
+}
+@media only screen and (min-width: 1200px) and (max-width: 1400px) {
+  .question-container {
+    margin: 18% auto;
+  }
+}

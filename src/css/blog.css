@@ -1,0 +1,348 @@
+/* Blog Page */
+
+.showPostsSection {
+  /* padding-top: 10rem; */
+}
+
+.writeBlogSection {
+  max-width: 1400px;
+}
+
+.writeBlogSection form {
+  width: 85%;
+  margin: 0 auto;
+}
+
+.blogCards {
+  width: 40rem;
+  margin: 3rem auto;
+  background-color: #fff;
+  border-radius: 10px 10px;
+  box-shadow: rgba(100, 97, 97, 0.56) 0px 22px 70px 4px;
+  background-color: whitesmoke;
+}
+
+.blogUser {
+  font-size: 2.5rem;
+  border-bottom: 2px solid gainsboro;
+  color: #1a39ca;
+  padding-bottom: 0.5rem;
+}
+
+.blogTitle {
+  padding-top: 0.5rem;
+  font-size: 1.6rem;
+  height: 7rem;
+  border-bottom: 2px solid gainsboro;
+  overflow-y: scroll;
+}
+
+.blogContent {
+  height: 20rem;
+  border-bottom: 2px solid gainsboro;
+  overflow-y: scroll;
+  font-size: 1.6rem;
+}
+
+.showPostsSection img,
+iframe {
+  width: 38rem;
+  height: 20rem;
+}
+.blogUser img {
+  width: 50px;
+  height: auto;
+}
+
+.likeButton {
+  font-size: 3rem;
+  color: #1a39ca;
+}
+
+.likesNumber {
+  font-size: 3rem;
+}
+
+.newPostButton {
+  margin-top: 10rem;
+  font-size: 2rem;
+  padding: 1rem 4rem;
+  background-color: #f66e1a;
+  color: #fff;
+}
+
+.blog-container {
+  margin-top: 5rem;
+  margin-bottom: 10rem;
+  border-radius: 10px 10px;
+  box-shadow: rgba(100, 97, 97, 0.56) 0px 22px 70px 4px;
+  background-color: #fff;
+}
+
+.link_addPost {
+  text-decoration: none;
+}
+
+.blogs,
+.blogsLink {
+  color: #fff;
+  text-decoration: none;
+}
+.clip-blog {
+  clip-path: polygon(38% 0, 73% 0, 56% 100%, 17% 100%);
+  background: linear-gradient(#e6efff, #1a39ca, #141a75);
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  left: 0;
+  z-index: -1;
+}
+/* add post */
+.clip-post {
+  clip-path: polygon(75% 0%, 100% 50%, 75% 100%, 48% 100%, 77% 51%, 52% 1%);
+  background: linear-gradient(#e6efff, #1a39ca, #141a75);
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  left: 0;
+  z-index: -1;
+}
+
+.welcomePost {
+  margin-top: 10rem;
+}
+
+form label {
+  font-size: 2rem;
+  margin-top: 0.5rem;
+}
+
+form input {
+  height: 4rem;
+  border: 1px solid black;
+}
+
+#inputTitle,
+#firstName,
+#email {
+  font-size: 2rem;
+}
+
+.postButton {
+  background-color: #1a39ca;
+  color: #fff;
+  margin: 10rem 0;
+}
+
+.writeBlogImg {
+  width: 68rem;
+  height: 70rem;
+  object-fit: contain;
+}
+
+/* quil editor */
+.ql-editor {
+  min-height: 22rem;
+}
+
+/* end of quil editor */
+
+/* end of add post */
+@media (max-width: 600px) {
+  .blogCards {
+    width: 32rem;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .blogCards {
+    width: 0rem;
+  }
+
+  .blogUser {
+    font-size: 2rem;
+    padding-bottom: 0.3rem;
+  }
+  .blogTitle {
+    padding-top: 0.3rem;
+    font-size: 1.4rem;
+  }
+  .blogContent {
+    height: 28rem;
+    border-bottom: 2px solid gainsboro;
+  }
+
+  .showPostsSection img,
+  iframe {
+    width: 30rem;
+    height: 28rem;
+  }
+  .user-img,
+  .blogUser .user-img img {
+    width: 25px;
+    height: auto;
+  }
+}
+
+@media only screen and (device-width: 411px) and (device-height: 823px) {
+  .blogCards {
+    width: 28rem;
+    height: 28rem;
+  }
+}
+
+@media (min-width: 411px) and (max-width: 823px) {
+  .blogCards {
+    width: 35rem;
+  }
+
+  .blogUser {
+    font-size: 2rem;
+    padding-bottom: 0.3rem;
+  }
+  .showPostsSection img,
+  iframe {
+    width: 32.5rem;
+    height: 20rem;
+  }
+}
+@media only screen and (device-width: 414px) and (device-height: 736px) {
+  .blogCards {
+    width: 37rem;
+  }
+
+  .blogUser {
+    font-size: 2rem;
+    padding-bottom: 0.3rem;
+  }
+  .showPostsSection img,
+  iframe {
+    width: 35rem;
+    height: 28rem;
+  }
+}
+
+@media only screen and (device-width: 320px) and (device-height: 568px) {
+  .blogCards {
+    width: 20rem;
+  }
+
+  .blogUser {
+    font-size: 2rem;
+    padding-bottom: 0.3rem;
+  }
+  .showPostsSection img,
+  iframe {
+    width: 25.7rem;
+    height: 28rem;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .blogCards {
+    width: 28rem;
+  }
+
+  .blogUser {
+    font-size: 2rem;
+    padding-bottom: 0.3rem;
+  }
+
+  .blogTitle {
+    padding-top: 0.3rem;
+    font-size: 1.4rem;
+  }
+
+  .blogContent {
+    height: 28rem;
+    border-bottom: 2px solid gainsboro;
+  }
+
+  .showPostsSection img,
+  iframe {
+    width: 28rem;
+    height: 28rem;
+  }
+}
+
+@media only screen and (device-width: 375px) and (device-height: 667px) {
+  .blogCards {
+    width: 32rem;
+  }
+
+  .blogUser {
+    font-size: 2rem;
+    padding-bottom: 0.3rem;
+  }
+  .showPostsSection img,
+  iframe {
+    width: 30rem;
+    height: 28rem;
+  }
+
+  .blogTitle {
+    padding-top: 0.3rem;
+    font-size: 1.6rem;
+  }
+}
+
+@media only screen and (device-width: 375px) and (device-height: 812px) {
+  .blogCards {
+    width: 33rem;
+  }
+
+  .blogUser {
+    font-size: 2rem;
+    padding-bottom: 0.3rem;
+  }
+  .showPostsSection img,
+  iframe {
+    width: 31rem;
+    height: 28rem;
+  }
+}
+
+@media only screen and (device-width: 540px) and (device-height: 720px) {
+  .blogCards {
+    width: 45rem;
+  }
+
+  .blogUser {
+    font-size: 2.4rem;
+    padding-bottom: 0.3rem;
+  }
+  .showPostsSection img,
+  iframe {
+    width: 43rem;
+    height: 28rem;
+  }
+
+  .blogTitle {
+    font-size: 1.8rem;
+  }
+}
+
+@media only screen and (device-width: 768px) and (device-height: 1024px) {
+  .blogCards {
+    width: 32rem;
+    margin-left: 1rem;
+  }
+}
+
+@media only screen and (device-width: 280px) and (device-height: 653px) {
+  .blogCards {
+    width: 24rem;
+  }
+
+  .blogUser {
+    font-size: 2.4rem;
+    padding-bottom: 0.3rem;
+  }
+  .showPostsSection img,
+  iframe {
+    width: 22rem;
+    height: 28rem;
+  }
+
+  .blogTitle {
+    font-size: 1.4rem;
+  }
+}

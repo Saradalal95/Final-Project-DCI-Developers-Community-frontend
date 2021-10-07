@@ -1,0 +1,86 @@
+/* About page */
+
+.about1strow {
+  background-color: #ffffff;
+  padding-top: 5rem;
+}
+.about2strow {
+  background-color: #ffffff;
+  padding-bottom: 3rem;
+}
+.about1strowImg1 {
+  background-color: #345cfd;
+  height: 40rem;
+  margin-top:2rem;
+  padding-top: 2rem;
+}
+.about1strowImg2 {
+  background-color: #1a39ca;
+  height: 40rem;
+  margin-bottom:1rem;
+}
+.about-Text {
+  font-size: 1.5rem;
+  padding-top: 3rem;
+}
+
+.pictures {
+  width: 12rem;
+  height: 14rem;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
+  padding: 1rem;
+  margin: 1rem;
+}
+#florin {
+  background: url(../images/Florin\ foto\ transparent\ background.png) no-repeat;
+  background-size: 100%;
+  border-radius: 50%;
+  height: 7rem;
+  width: 7rem;
+  padding: 5rem;
+}
+#heriberto {
+  background: url(../images/Heriberto\ foto\ transparent\ background.png) no-repeat;
+  background-size: 100%;
+  border-radius: 50%;
+ height: 7rem;
+  width: 7rem;
+  padding: 5rem;
+}
+#mariana {
+  background: url(../images/Mariana.png) no-repeat;
+  background-size: 100%;
+  border-radius: 50%;
+ height: 7rem;
+  width: 7rem;
+  padding: 5rem;
+}
+#sara {
+  background: url(../images/sara-removebg-preview.png) no-repeat;
+  background-size: 100%;
+  border-radius: 50%;
+  height: 7rem;
+  width: 7rem;
+  padding: 5rem;
+}
+#kinjal {
+  background: url(../images/Kinjal\ transparent\ background.png) no-repeat;
+  background-size: 100%;
+  border-radius: 50%;
+ height: 7rem;
+  width: 7rem;
+  padding: 5rem;
+}
+#webdev-gif {
+  background: url(../images/basics-of-web-development.gif) no-repeat;
+  background-color: #1a39ca;
+  background-blend-mode: color-dodge;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 41rem;
+}

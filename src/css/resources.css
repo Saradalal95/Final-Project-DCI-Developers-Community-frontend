@@ -1,0 +1,156 @@
+/* Heriberto*/
+/* Resources page */
+.main-resources-container {
+  margin-top: 9vh;
+  background-color: #e6eefe;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 7.5vh;
+}
+.resources-container {
+  /* background: linear-gradient(
+    to right,
+    #1f4d6a,
+    #1f4d6a,
+    #3c8bbc,
+    #3c8bbc,
+    #3c8bbc
+  ); */
+  background-color: #061296;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 15rem;
+}
+td {
+  padding-top: 1rem;
+}
+/* .resources-container > img {
+  height: auto;
+  width: 26vw;
+} */
+.resources-container > h1 {
+  color: white;
+  font-size: 6vw;
+  font-weight: bold;
+}
+.content-table {
+  box-shadow: rgba(100, 97, 97, 0.56) 0px 1px 10px 2px;
+  margin-top: 2vh;
+  background-color: #e6eefe;
+  border: 0.25rem black solid;
+  width: 97%;
+  margin-bottom: 2vh;
+}
+.resource-img {
+  padding: 1.3vw;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.link-img-12 {
+  height: auto;
+  width: 12vw;
+}
+
+.link-img-10 {
+  width: 10vw;
+}
+
+.link-img-9 {
+  width: 9vw;
+}
+
+.resource-text {
+  text-align: justify;
+  padding-top: 2rem;
+  padding-right: 3.5rem;
+  font-size: 1.8rem;
+  padding-bottom: 6vh;
+}
+
+.stackOverflow {
+  padding-top: 3.5rem;
+}
+
+@media only screen and (max-width: 600px) { 
+  .resources-container {
+    /* display: block; */
+    /* background: none; */
+    height: 10vh;
+  }
+  /* .resources-container > img {
+    height: auto;
+    width: 100%;
+  } */
+  .resources-container > h1 {
+    margin: 0 auto;
+    font-size: 10vw;
+  }
+  .content-table {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #e6eefe;
+    border: 0.25rem black solid;
+    width: 97%;
+    margin-bottom: 1vh;
+  }
+  .resource-img {
+    padding: 1.3vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .resource-img > img {
+    height: 5vh;
+    width: 30vw;
+  }
+  .resource-text {
+    text-align: justify;
+    font-size: 1.2rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
+  .link-img-12,
+  .link-img-10,
+  .link-img-9 {
+    height: auto;
+    width: 200px;
+  }
+}
+
+/* @media only screen and (min-width: 980px) and (max-width: 1187px) {
+  .content-table {
+    margin-top: 27.5vh;
+  }
+} */
+
+/* @media only screen and (min-width: 766px) and (max-width: 979px) {
+  .content-table {
+    margin-top: 16vh;
+  }
+} */
+
+/* @media only screen and (min-width: 480px) and (max-width: 765px) {
+  .content-table {
+    margin-top: 7vh;
+  }
+} */
+
+@media only screen and (min-width: 375px) and (max-width: 479px) {
+  .content-table {
+    margin-top: 2vh;
+  }
+}
+
+/* @media only screen and (min-width: 375px) and (max-width: 437px) {
+  .content-table {
+    margin-top: 2vh;
+  }
+} */

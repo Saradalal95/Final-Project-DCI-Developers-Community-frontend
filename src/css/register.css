@@ -1,0 +1,100 @@
+/*Register Page*/
+.register-container {
+  margin: 7% auto;
+}
+#register-img {
+  background-image: url(../images/membership-3936563_1280.jpg);
+  background-size: cover;
+  background-position: center;
+  background-color: #1a39ca;
+  background-blend-mode: screen;
+  border-radius: 10px 10px;
+}
+.register-form,
+.register-form input {
+  font-size: 1.5rem;
+  padding: 0 2rem;
+}
+.register-clip1 {
+  clip-path: circle(50% at 50% 50%);
+  background: linear-gradient(#e6efff, #1a39ca, #04083c);
+  position: fixed;
+  z-index: -1;
+  width: 50rem;
+  height: 50rem;
+  bottom: -5rem;
+  right: -10rem;
+}
+.register-clip2 {
+  clip-path: circle(50% at 50% 50%);
+  background: linear-gradient(#e6efff, #1a39ca, #04083c);
+  position: fixed;
+  z-index: -1;
+  width: 35rem;
+  height: 35rem;
+  right: 30rem;
+  bottom: 45rem;
+}
+
+@media only screen and (max-width: 600px) {
+  .register-container {
+    margin: 35% auto;
+    width: 300px;
+    padding: 1rem;
+  }
+  .register-container h2 {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+  }
+  #register-img {
+    display: none;
+  }
+  .register-form,
+  .register-form input {
+    font-size: 1.2rem;
+    padding: 0 0.5rem;
+  }
+  .form-label {
+    font-size: 1.2rem;
+    margin: 0 !important;
+  }
+}
+@media only screen and (min-width: 600px) and (max-width: 992px) {
+  .register-container {
+    margin: 15% auto;
+    width: 600px;
+    padding: 1rem;
+  }
+  .register-container h2 {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+  }
+  .register-form,
+  .register-form input {
+    font-size: 1.2rem;
+    padding: 0 0.5rem;
+  }
+  .form-label {
+    font-size: 1.2rem;
+    margin: 0 !important;
+  }
+  .register-btn {
+    margin-top: 10px !important;
+    font-size: 1.5rem !important;
+    width: 7rem !important;
+  }
+}
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+  .register-container {
+    margin: 25% auto;
+    width: 800px;
+    padding: 1rem;
+  }
+}
+@media only screen and (min-width: 1200px) and (max-width: 1400px) {
+  .register-container {
+    margin: 10% auto;
+    width: 800px;
+    padding: 1rem;
+  }
+}

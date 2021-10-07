@@ -1,0 +1,100 @@
+/*------------Jobs----------------------*/
+
+.Jobs-title {
+  position: relative;
+  text-align: center;
+}
+
+.Jobs-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 150px;
+  font-weight: bolder;
+  color: #1a39ca;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.Job-list {
+  width: 45vw;
+  height: 65vh;
+  margin: 30px;
+  /* padding: 10px; */
+  border: 1px solid #1a39ca;
+  overflow: auto;
+}
+
+.content-jobs-page {
+  display: flex;
+  justify-content: center;
+}
+
+.Job-box {
+  box-sizing: border-box;
+  height: auto;
+  display: flex;
+  direction: row;
+  background-color: #e6efff;
+  font-style: none;
+}
+
+@media only screen and (max-width: 600px) {
+  .Job-list {
+    width: 80vw;
+    margin: 30px;
+  }
+
+  .promoted-applicants {
+    flex-wrap: wrap;
+  }
+}
+
+/*-------Jobs Page renovated-------*/
+
+.Job-box:hover {
+  background: white;
+}
+
+.Job-logo {
+  margin: 20px;
+}
+
+.Job-data {
+  margin-top: 20px;
+}
+
+.job-title-card {
+  font-size: 32px;
+  font-weight: bolder;
+  text-decoration: none;
+  color: #0a66c2;
+}
+
+.profile-match,
+.promoted-applicants {
+  display: flex;
+  direction: row;
+}
+
+.profile-match,
+.promoted {
+  color: #696167;
+}
+
+.match-pic {
+  border-radius: 50%;
+}
+
+.applicants {
+  color: #057642;
+  font-weight: bold;
+}
+
+.Job-data > h3 {
+  font-size: 24px;
+  color: #696167;
+}
+.Job-data h4 {
+  font-size: 20px;
+}

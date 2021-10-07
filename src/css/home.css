@@ -1,0 +1,176 @@
+/* Home Page */
+.hero-container {
+  width: 80%;
+  margin: 10% auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-items: center;
+  justify-content: space-around;
+}
+.hero-container h1 {
+  font-size: 4rem;
+}
+.hero-text {
+  width: 55rem;
+  padding: 3rem 2rem;
+  font-size: 2rem;
+  text-align: center;
+  border-radius: 10px 10px;
+  box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+  background-color: whitesmoke;
+  height: 40rem;
+  margin: 10rem auto;
+}
+.hero-img {
+  width: 55rem;
+  background: url(../images/meeting-1019875_1920.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 40rem;
+  border-radius: 10px 10px;
+  box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+  margin: 10rem auto;
+}
+.who-section {
+  width: 70%;
+  margin: 10% auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-items: center;
+  justify-content: space-around;
+}
+.why-section,
+.join-section {
+  width: 70%;
+  margin: 5% auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-items: center;
+  justify-content: space-around;
+}
+
+.text-container {
+  width: 50rem;
+  height: 30rem;
+  border-radius: 10px 10px;
+  box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+  background-color: whitesmoke;
+  font-size: 1.8rem;
+  text-align: justify;
+  padding: 3rem;
+  box-sizing: border-box;
+  margin: 10rem auto;
+}
+.img-container {
+  width: 50rem;
+  height: 30rem;
+  border-radius: 10px 10px;
+  box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+  margin: 0;
+  background-color: #ffffff;
+  margin: 10rem auto;
+}
+.img1 {
+  background: url(../images/undraw_pair_programming_njlp.png);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-color: white;
+}
+.img2 {
+  background: url(../images/undraw_Code_typing_re_p8b9.png);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-color: white;
+}
+.img3 {
+  background: url(../images/undraw_Code_thinking_re_gka2.png);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-color: white;
+}
+
+.clip-1 {
+  clip-path: polygon(50% 0%, 0 47%, 0 0);
+  background: linear-gradient(#e6efff, #1a39ca, #04083c);
+  width: 220rem;
+  height: 50rem;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+.clip-2 {
+  clip-path: polygon(100% 36%, 100% 100%, 0 100%);
+  background: linear-gradient(#e6efff, #1a39ca, #04083c);
+  width: 200rem;
+  height: 80rem;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  z-index: -1;
+}
+/* media query */
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .hero-text,
+  .hero-img {
+    width: 300px;
+    height: 250px;
+    font-size: 1rem;
+  }
+  .hero-text {
+    margin: 25% 15% auto;
+  }
+  .hero-img {
+    margin: 15% auto;
+  }
+  .hero-container h1 {
+    font-size: 2rem;
+  }
+  .text-container,
+  .img-container {
+    width: 300px;
+    height: 200px;
+    font-size: 1rem;
+    margin: 15% auto;
+  }
+  .text-container {
+    padding: 2rem;
+  }
+  .text-container h2 {
+    font-size: 1.5rem;
+    margin: 0;
+  }
+  .register-btn {
+    margin-top: 10px !important;
+    font-size: 1.5rem !important;
+    width: 7rem !important;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+
+@media only screen and (min-width: 601px) and (max-width: 1000px) {
+  .hero-text,
+  .hero-img {
+    width: 55rem;
+  }
+  .text-container,
+  .img-container {
+    width: 45rem;
+  }
+}
+@media only screen and (min-width: 1000px) and (max-width: 1400px) {
+  .hero-text,
+  .hero-img {
+    width: 45rem;
+  }
+  .text-container,
+  .img-container {
+    width: 45rem;
+  }
+}
